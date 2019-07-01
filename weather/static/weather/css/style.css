@@ -1,3 +1,52 @@
 li {
     color: green;
 }
+
+/* inspire by code from codepen.com */
+html, body {
+  background: "https://i.ytimg.com/vi/PenI9DE1dx4/maxresdefault.jpg";
+	font-family: 'Alegreya Sans', sans-serif;
+	position: relative;
+	letter-spacing: 0.05rem;
+	line-height: 1.5;
+	text-align: center;
+}
+
+/* inspire by code from w3school.com */
+div.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+/* making table */
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+   font-weight: bold;
+}
+
+th, td {
+  padding: 15px;
+}
+
+th {
+  text-align: left;
+}
+
+table {
+  border-spacing: 5px;
+}
+
+
